@@ -4,7 +4,6 @@ from rest_framework.response import Response
 from rest_framework import status
 from .models import Breed, Kitten, KittenRating
 from .serializers import BreedSerializer, KittenSerializer, KittenDetailSerializer, KittenRatingSerializer
-from .permissions import IsOwnerOrReadOnly
 from rest_framework.decorators import action
 
 

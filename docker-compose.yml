@@ -23,9 +23,9 @@ services:
     image: postgres
     # Задание переменных окружения для контейнера с postgres
     environment:
-      - POSTGRES_DB=db
-      - POSTGRES_USER=user_S
-      - POSTGRES_PASSWORD=password_S
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
     ports:
       - "5432:5432"  # Порт на хосте: Порт в контейнере
     # Задание имени контейнера для сервиса pgdb

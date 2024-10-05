@@ -1,7 +1,6 @@
 from drf_spectacular.extensions import OpenApiViewExtension
 from drf_spectacular.types import OpenApiTypes
 from drf_spectacular.utils import extend_schema, OpenApiParameter, OpenApiResponse, OpenApiExample
-from rest_framework import status
 import kittens_app.views
 
 
