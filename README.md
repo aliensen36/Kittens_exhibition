@@ -85,6 +85,16 @@ uritemplate==4.1.1
 
 ---
 
+## Документация API
+
+Этот проект использует [Swagger UI](https://swagger.io/tools/swagger-ui/) для интерактивной документации API.
+
+### Доступ к документации:
+- **Swagger UI**: [http://127.0.0.1:8000/api/schema/swagger-ui/](http://127.0.0.1:8000/api/schema/swagger-ui/)
+- **Redoc**: [http://127.0.0.1:8000/api/schema/redoc/](http://127.0.0.1:8000/api/schema/redoc/)
+- **OpenAPI схема**: [http://127.0.0.1:8000/api/schema/](http://127.0.0.1:8000/api/schema/)
+
+
 ## Описание API с примерами
 
 ### 1. Породы котят (Breeds)
