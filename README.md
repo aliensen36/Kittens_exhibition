@@ -1,4 +1,4 @@
-```markdown
+
 # Kittens Exhibition API
 
 ## Описание
